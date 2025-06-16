@@ -55,7 +55,7 @@ body {
     border-style: solid;
     border-bottom-style: none;
     border-width: 1px;
-    border-color: #d3dad1;
+    border-color: rgb(211, 218, 209, .4);
     box-shadow: 2px 2px 2px 1px rgb(95, 101, 102, .2);
     margin-bottom: 5px;
     width: 65px;
