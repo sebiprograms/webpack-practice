@@ -1,0 +1,19 @@
+body {
+    background-color: #464646;
+    color: rgb(255, 255, 255);
+    margin: 0px;
+    height: 100vh;
+    width: 100vw;
+}
+
+.showcase {
+    border-style: solid;
+    border-color: #2e2e2e;
+    border-radius: 6px;
+    width: 50%;
+    min-width: 350px;
+    resize: horizontal;
+    overflow: auto;
+    height: 60%;
+    justify-self: center;
+}
