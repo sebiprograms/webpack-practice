@@ -23,7 +23,7 @@ body {
     text-align: center;
     border-style: none;
     border-color: #838383;
-    background-color:rgba(225, 225, 225, .5);
+    background-color:rgba(235, 234, 234, 0.5);
     border-radius: 6px;
     width: 50%;
     min-width: 350px;
@@ -38,7 +38,7 @@ body {
 .menu {
     display: flex;
     grid-area: 1 / 1 / 2 / 2;
-    background-color: #87a07f;
+    background-color: #565c55;
     align-items: end;
     justify-content: center;
     box-shadow: 2px 1px 6px 1px rgb(94, 99, 100);
@@ -48,17 +48,22 @@ body {
 .menu>button {
     text-align: center;
     font-family:system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
-    border-radius: 5px;
-    border-style: none;
-
+    border-top-right-radius: 2px;
+    border-top-left-radius: 2px;
+    background-color: rgba(180, 179, 179, 0.1);
+    border-style: solid;
+    border-bottom-style: none;
+    border-width: 1px;
     border-color: #d3dad1;
-    box-shadow: 2px 2px 2px 1px rgb(95, 101, 102, .5);
+    box-shadow: 2px 2px 2px 1px rgb(95, 101, 102, .2);
     margin-bottom: 5px;
     width: 65px;
     height: 25px;
-    margin: 2px;
-    font-size: smaller;
+    margin-bottom: 0px;
+    font-size: x-small;
 }
+
+
 
 .menu>button:hover {
     cursor: pointer;
