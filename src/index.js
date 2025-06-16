@@ -4,15 +4,19 @@ const div = document.createElement('div')
 const menu = document.createElement('div')
 const display = document.createElement('div')
 const text = document.createElement('p')
-text.textContent = "Example Webpage Using Webpack"
+
 div.classList.add("showcase")
 menu.classList.add("menu")
 display.classList.add("display")
 
-
 div.appendChild(menu)
-menu.appendChild(text)
 div.appendChild(display)
+for(let i = 0; i < 3; i++) {
+    const button = document.createElement('button')
+    button.classList.add(`button${i}`)
+    menu.appendChild(button)
+}
+
 document.body.appendChild(div)
 
 

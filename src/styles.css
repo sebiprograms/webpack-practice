@@ -37,9 +37,16 @@ body {
 
 .menu {
     display: flex;
-    flex-direction: column;
     grid-area: 1 / 1 / 2 / 2;
     background-color: #6d7c6a;
+    align-items: end;
+    justify-content: center;
+
+}
+
+.menu>button {
+    width: 50px;
+    height: 35px;
 }
 
 .display {
