@@ -45,7 +45,8 @@ body {
 }
 
 .menu>button {
-    width: 50px;
+    text-align: center;
+    width: 60px;
     height: 35px;
 }
 
