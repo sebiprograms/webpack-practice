@@ -18,9 +18,13 @@ for(let i = 0; i < 3; i++) {
     button.classList.add(`button${i}`)
     button.textContent = names[i]
     menu.appendChild(button)
+    
 }
+
+
 // the main webpage card
 document.body.appendChild(div)
-contactpage()
+
+
 
 export {div}
