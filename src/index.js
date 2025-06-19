@@ -17,9 +17,15 @@ for(let i = 0; i < 3; i++) {
     const button = document.createElement('button')
     button.classList.add(`button${i}`)
     button.textContent = names[i]
+    if (button.classList.contains("button2")){
+        button.addEventListener('click', () => {
+            contactpage()
+        })
+    }
     menu.appendChild(button)
     
 }
+
 
 
 // the main webpage card
