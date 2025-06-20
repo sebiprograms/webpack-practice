@@ -99,3 +99,15 @@ button.button2 {
     margin-left: 10px;
     color: black;
 }
+
+.credits {
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    background-color: rgb(41, 41, 41, .2);
+    color: white;
+    text-align: left;
+    font-size: smaller;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
