@@ -1,5 +1,6 @@
 import "./styles.css";
-import { contactpage } from "./contact";
+import { contactPage } from "./contact";
+import { aboutPage } from "./about";
 
 const div = document.createElement('div')
 const menu = document.createElement('div')
@@ -19,9 +20,18 @@ for(let i = 0; i < 3; i++) {
     button.textContent = names[i]
     if (button.classList.contains("button2")){
         button.addEventListener('click', () => {
-            contactpage()
+            if (document.querySelector('.about') != null){
+                div.removeChild(document.querySelector('.about'))
+            }
+            contactPage()
         })
     }
+    if (button.classList.contains("button1")){
+        button.addEventListener('click', () => {
+            aboutPage()
+        })
+    }
+ 
     menu.appendChild(button)
     
 }

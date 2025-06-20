@@ -6,7 +6,7 @@ text.textContent = "Contacts: "
 contacts.classList.add('contact')
 contacts.appendChild(text)
 
-export function contactpage() {
+export function contactPage() {
 
   div.appendChild(contacts)
 }

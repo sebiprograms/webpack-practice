@@ -1,6 +1,7 @@
 body {
     background-color: #494848;
     color: rgb(255, 255, 255);
+    box-sizing: border-box;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     margin: 0px;
     padding: 20px;
@@ -27,6 +28,7 @@ body {
     resize: horizontal;
     height: 70%;
     justify-self: center;
+    gap: 4px;
 }
 
 
@@ -81,6 +83,18 @@ button.button2 {
 }
 
 .contact>h2 {
+    text-align: left;
+    margin-left: 10px;
+    color: black;
+}
+
+.about {
+    grid-area: 2 / 1 / 4 / 2;
+    background-color: white;
+    border-radius: 20px;
+}
+
+.about>h2 {
     text-align: left;
     margin-left: 10px;
     color: black;
